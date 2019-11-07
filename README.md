@@ -5,7 +5,7 @@
 <p><span style="font-family: helvetica, arial, sans-serif;">- Chat filter (change settings with /chatfilter)<br /></span></h4>
 <p><span style="font-family: helvetica, arial, sans-serif;">- Chat mute (add player with /mute) (/unmute coming soom)</span></p>
 <p><span style="font-family: helvetica, arial, sans-serif;">- Admin Gui (gui with various commands)</p>
-<h4><span style="font-family: helvetica, arial, sans-serif;">- Plugin management (without having to have access to ftp)</span></h4>
+<p><span style="font-family: helvetica, arial, sans-serif;">- Plugin management (without having to have access to ftp)</span></p>
 <p><span style="font-family: helvetica, arial, sans-serif;">- Warp points (/makewarp &lt;warpname&gt;)</span></p>
 <p><span style="font-family: helvetica, arial, sans-serif;">- Resource packs (/resourcepack)</span></h4>
 <p><span style="font-family: helvetica, arial, sans-serif;">- Kill all and list all (kill or list all entities of a certain type)</span></p>
