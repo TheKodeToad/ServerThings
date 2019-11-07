@@ -97,6 +97,39 @@ public class PlayerEvents implements Listener{
 			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rThunder Storm§r")) {
 				Bukkit.getServer().dispatchCommand(target, "weather thunder");
 			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rClose§r")) {
+				e.getWhoClicked().closeInventory();
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rSurvival§r")) {
+				Bukkit.getServer().dispatchCommand(target, "gamemode survival");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rCreative§r")) {
+				Bukkit.getServer().dispatchCommand(target, "gamemode creative");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rAdventure§r")) {
+				Bukkit.getServer().dispatchCommand(target, "gamemode adventure");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rSpectator§r")) {
+				Bukkit.getServer().dispatchCommand(target, "gamemode spectator");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rPeaceful§r")) {
+				Bukkit.getServer().dispatchCommand(target, "difficulty peaceful");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rEasy§r")) {
+				Bukkit.getServer().dispatchCommand(target, "difficulty easy");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rNormal§r")) {
+				Bukkit.getServer().dispatchCommand(target, "difficulty normal");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rHard§r")) {
+				Bukkit.getServer().dispatchCommand(target, "difficulty hard");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rKick Player§r")) {
+				e.getWhoClicked().sendMessage("/kick <player>");
+			}
+			else if(e.getCurrentItem().getItemMeta().getDisplayName().equals("§rBan Player§r")) {
+				e.getWhoClicked().sendMessage("/ban <player>");
+			}
 		}
 	}
 	
