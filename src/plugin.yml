@@ -1,0 +1,76 @@
+name: ServerThings
+version: 1.0
+api-version: 1.14
+author: mcblueparrot
+main: me.mcblueparrot.serverthings.Main
+description: Things for servers
+commands:
+  fly:
+    description: Grow wings
+    usage: /<command> <player> (can/cannot)
+  makewarp:
+    description: Make a warp point
+    usage: /<command> <name> <x> <y> <z>
+  warp:
+    description: Go to a warp point
+    usage: /<command> <warp> <player>
+  listwarps:
+    description: List all warp points
+    usage: /<command>
+  delwarp:
+    description: Delete a warp point
+    usage: /<command> <warp>
+  god:
+    description: Stop taking damage
+    usage: /<command> <player> (on/off)
+  nameitem:
+    description: Rename an item using ^ for colour codes
+    usage: /<command> <name>
+  serverthingsreloadconfig:
+    description: Reload the config
+    usage: /<command>
+  admingui:
+    description: Display an admin gui
+    usage: /<command>
+  do:
+    description: Do things
+    usage: /<command>
+  killall:
+    description: Kill things
+    usage: /<command> <entity>
+  workbench:
+    description: Craft something
+    usage: /<command>
+  bin:
+    description: Throw stuff away
+    usage: /<command>
+  listall:
+    description: List entities
+    usage: /<command>
+  resourcepack:
+    description: Load a resource pack
+    usage: /<command> (global/player) (<player>/<url>) <url>
+  difficulty:
+    description: Change the difficulty
+    usage: /<command> (easy/hard/normal/peaceful>)
+  pvp:
+    description: Enable or disable pvp
+    usage: /<command> (on/off)
+  chatfilter:
+    description: Change chat filter settings
+    usage: /<command> (disable/enable/addword/removeword/settings) (<word>/kickplayers/alertplayers/showplayermessage) (true/false)
+  disableplugin:
+    description: Disable a plugin
+    usage: /<command> <plugin>
+  enableplugin:
+    description: Enable a plugin
+    usage: /<command> <plugin>
+  installplugin:
+    description: Install a plugin
+    usage: /<command> <url>
+  uninstallplugin:
+    description: Uninstall a plugin
+    usage: /<command> <file>
+  mute:
+    description: Mute a player
+    usage: /<command> <player>

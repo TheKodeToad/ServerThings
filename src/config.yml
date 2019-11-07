@@ -1,0 +1,11 @@
+saveflight: true
+#Put words to block here (backwards):
+rudewords: tihs,kcuf,reggin,gongin,toidi,gnikcuf,yttihs,eid,parc,mub,tit,oop,poop,kcid,ttub,t#hs,t^hs,t*hs,t'hs,t"hs,ftw,gnif,gni'f,taf
+#Chat settings
+chat:
+  filter: true
+  #Alerts the server when somebody sends a rude message
+  alertrude: true
+  #Mentions the message
+  showrudemessage: false
+  rudekick: false
