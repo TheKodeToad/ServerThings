@@ -1,5 +1,5 @@
 name: ServerThings
-version: 1.0
+version: 1.1
 api-version: 1.14
 author: mcblueparrot
 main: me.mcblueparrot.serverthings.Main
@@ -74,3 +74,9 @@ commands:
   mute:
     description: Mute a player
     usage: /<command> <player>
+  unmute:
+    description: Unmute a player
+    usage: /<command> <player>
+  motd:
+    description: Change the motd
+    usage: /<command> <motd>
