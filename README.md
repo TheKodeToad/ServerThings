@@ -1,4 +1,7 @@
-<h2 style="text-align: center;"><span style="font-family: helvetica, arial, sans-serif;"><strong>ServerThings (still in development)</strong></span></h2>
+## 2022 Update
+In case you were wondering, this isn't still in development. The last actual commit is from 2019, and the only commits happened over two days.
+
+<h2 style="text-align: center;"><span style="font-family: helvetica, arial, sans-serif;"><strong>ServerThings <strike>(still in development)</strike></strong></span></h2>
 <h3 style="text-align: center;"><span style="font-family: helvetica, arial, sans-serif;">Some useful tools for servers</span></h3>
 <h5><span style="font-family: helvetica, arial, sans-serif; color: #ff9900;">Source Code: <a href="https://github.com/TheKodeToad/ServerThings" target="_blank" rel="noopener noreferrer"><span style="color: #0000ff;">https://github.com/TheKodeToad/ServerThings</span></a></span></h5>
 <h3 style="text-align: left;"><strong><span style="font-family: helvetica, arial, sans-serif;">Features:</span></strong></h3>
