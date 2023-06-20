@@ -1,3 +1,6 @@
+## 2024 Update
+I will update this message when it's 2024 (I hope)!
+
 ## 2023 Update
 No update!
 
